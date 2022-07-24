@@ -16,14 +16,21 @@ a,
 a:visited {
     text-decoration: none;
     color: whitesmoke;   
+    transition: 0.3s;
+}
+a:hover {
+    color: #2128bd;
+    font-size: 1.3rem;
 }
 body {
     background: rgb(27, 27, 27);
     color: whitesmoke;
+    min-height: 100vh;
 }
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: 50px;
 }
 
 nav ul {
