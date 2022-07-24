@@ -41,12 +41,14 @@ body {
 #mouse1 {
     background: grey;
     width: 100px;
-    height: 100px
+    height: 100px;
+    transition: 0.15s ease-out
 }
 #mouse2 {
     background: rgb(42, 42, 42);
     width: 200px;
-    height: 200px
+    height: 200px;
+    transition: 0.3s ease-out;
 }
 
 nav {
