@@ -32,4 +32,27 @@ nav ul {
 
 }
 
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.main-left h2 {
+    color: rgb(71, 77, 255);
+    font-size: 1.8rem;
+}
+.main-left {
+    font-size: 0.8rem;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.main-right img {
+    width: 100%;
+}
+
+
+
 
