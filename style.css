@@ -34,12 +34,12 @@ body {
     mix-blend-mode: difference;
 }
 #cursor {
-    background: blue;
+    background: #2128bd;
     width: 15px;
     height: 15px;
 }
 #mouse1 {
-    background: grey;
+    background: white;
     width: 100px;
     height: 100px;
     transition: 0.15s ease-out
