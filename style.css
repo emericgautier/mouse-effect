@@ -17,6 +17,8 @@ a:visited {
     text-decoration: none;
     color: whitesmoke;   
     transition: 0.3s;
+    z-index: 1000;
+    position: relative;
 }
 a:hover {
     color: #2128bd;
@@ -26,6 +28,7 @@ body {
     background: rgb(27, 27, 27);
     color: whitesmoke;
     min-height: 100vh;
+    cursor: none;
 }
 .mouse {
     border-radius: 150px;
