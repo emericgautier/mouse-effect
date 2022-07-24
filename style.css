@@ -27,6 +27,28 @@ body {
     color: whitesmoke;
     min-height: 100vh;
 }
+.mouse {
+    border-radius: 150px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+}
+#cursor {
+    background: blue;
+    width: 15px;
+    height: 15px;
+}
+#mouse1 {
+    background: grey;
+    width: 100px;
+    height: 100px
+}
+#mouse2 {
+    background: rgb(42, 42, 42);
+    width: 200px;
+    height: 200px
+}
+
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
