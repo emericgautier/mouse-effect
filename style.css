@@ -53,6 +53,38 @@ h1 {
     width: 100%;
 }
 
+footer {
+    display: grid;
+    grid-template-columns: 33% 67%;
+    background: rgb(7, 7, 7);
+    border-radius: 10px;
+}
 
+.footer-left ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 160px;
+}
 
+.footer-left li {
+    background: #474DFF;
+    width: 160px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.footer-right ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 160px;
+}
+
+footer img {
+    height: 60px;
+}
 
