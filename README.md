@@ -2,8 +2,10 @@
 
 - Intégration d'une maquette. 
 
-- Manipulation du DOM
+- Manipulation du DOM : mouse effect.
 
+
+Étapes :
 1. Créer 3 ronds de tailles différentes (dont un qui remplacera la souris)
 
 2. Ajouter un événement sur la fenetre (window) puis animer la position de ces ronds (top, left injecter "e")
