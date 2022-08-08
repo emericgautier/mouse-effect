@@ -4,6 +4,8 @@
 
 - Manipulation du DOM.
 
+- SEO, référencement naturel.
+
 #
 
 Les étapes pour le "mouse effect" :
